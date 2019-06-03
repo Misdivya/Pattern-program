@@ -1,0 +1,22 @@
+import java.util.*;
+public class Pattern {
+	
+	public static void main(String a[])
+	{
+		int temp = 0;
+		for(int i=0;i<=5;)
+		{
+			if(temp==5)
+			{
+				System.out.println();
+				i++;
+				temp=i;
+			}
+			else
+			{
+				System.out.print("*");
+				temp++;
+			}
+		}
+	}
+}
